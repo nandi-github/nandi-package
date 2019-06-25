@@ -22,6 +22,7 @@
 from yahoo_fin.stock_info import *
 import datetime
 
+#Now this is in git
 
 def nd_get_data (ticker, start_date = None, end_date = None, index_as_date = True):
     """
