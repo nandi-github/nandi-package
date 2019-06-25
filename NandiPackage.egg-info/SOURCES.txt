@@ -1,0 +1,7 @@
+setup.py
+NandiPackage.egg-info/PKG-INFO
+NandiPackage.egg-info/SOURCES.txt
+NandiPackage.egg-info/dependency_links.txt
+NandiPackage.egg-info/not-zip-safe
+NandiPackage.egg-info/requires.txt
+NandiPackage.egg-info/top_level.txt
