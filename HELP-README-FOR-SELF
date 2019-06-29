@@ -1,0 +1,33 @@
+
+
+Building the package
+--------------------
+
+
+in the main directory (../nandi)
+run python setup.py install 
+
+This will build the nandi package
+
+You can locally install using 
+"pip install ." from the package root.
+
+
+
+
+# How to publish to pypi
+
+Generate the files to upload to pypi with the followign cmd
+
+"python setup.py sdist" in the directory where the setup resides
+
+twine upload dist/nandi-0.2.tar.gz 
+
+
+twine upload path-to-gzfile-generate-from python.setup install
+
+twine upload dist/*
+
+username for pypi 
+snandi & TsainiK
+

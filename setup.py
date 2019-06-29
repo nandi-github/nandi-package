@@ -3,16 +3,16 @@ from setuptools import setup
 # Use this site for building the package
 # https://uoftcoders.github.io/studyGroup/lessons/python/packages/lesson/
 
-setup(name='NandiPackage',
-      version='0.1',
+setup(name='nandi',
+      version='0.202',
       description='Simple data get utilities to pull stock data from web',
-      url='http://github.com/nandi-git/nandi',
+      url='http://github.com/nandi-git/nandi-package',
       author='Satish Nandi',
       author_email='satish@nandi.net',
       license='MIT',
-      packages=['nandi'],
+      packages=['nandi','nandi.finance', 'nandi.bark'],
       install_requires=[
-          'numpy', 'pandas',
+          'numpy','pandas',
           'requests_html',
           'yahoo_fin'
       ],
